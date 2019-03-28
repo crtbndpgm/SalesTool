@@ -5,9 +5,8 @@ public class SalesData {
 
 	public void display() {
 		System.out.println("Data:");
-			for (int i : data) {
-			System.out.println("i: " + i);
-			System.out.println("Next value: " + data[i]);
+		for (int i : data) {
+			System.out.println("Next value: " + i);
 		}
 	}
 }
